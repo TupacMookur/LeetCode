@@ -32,19 +32,9 @@ def example(digits):
             return digits
 
 
-
-
-
-
-
     # If we reach here, all digits were 9 (e.g., 999 -> 1000)
     # Need to add a leading 1
     print ([1] + digits)
-
-
-
-list = [1,1,1,1,1,1,0]
-example(list)
 
 
 list = [9,9,9]

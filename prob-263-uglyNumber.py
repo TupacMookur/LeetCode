@@ -13,9 +13,11 @@ def example(n):
 
     for p in [2,3,5]:
         while n % p == 0:
+            # if remainder is zero, floor divide n by p
             n //= p
 
     # if n is a prime number, this returns a BOOL
+    print(n)
     print (n == 1)
 
 
